@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CROSS_COMPILE=$(pwd)/../PLATFORM/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CROSS_COMPILE=$(pwd)/../../../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 #export CROSS_COMPILE=$(pwd)/../Kernel//scripts/toolchain\gcc-cfp\gcc-cfp-single\aarch64-linux-android-
 
 mkdir out
