@@ -45,7 +45,7 @@
 #include <linux/security/iccc_interface.h>
 #endif
 
-bool isPermissive = false;
+bool force_permissive = false;
 
 /* Policy capability filenames */
 static char *policycap_names[] = {
